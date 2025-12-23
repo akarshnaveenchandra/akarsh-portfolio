@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Subtle background glow */
+body {
+  background:
+    radial-gradient(
+      800px 400px at 50% -100px,
+      rgba(148, 163, 184, 0.08),
+      transparent 70%
+    ),
+    #020617;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Typography scale */
+h1 {
+  @apply text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight;
+}
+
+h2 {
+  @apply text-2xl sm:text-3xl font-bold tracking-tight;
+}
+
+h3 {
+  @apply text-lg sm:text-xl font-semibold;
+}
+
+p {
+  @apply text-sm sm:text-base text-white/80 leading-relaxed;
+}
+
+/* Section spacing */
+section {
+  @apply py-16;
+}
+
+/* Cards */
+.card {
+  @apply rounded-xl border border-white/10 bg-slate-900/70 p-6;
+}
