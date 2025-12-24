@@ -3,14 +3,14 @@ import { motion } from 'framer-motion';
 export default function Testimonials() {
   return (
     <section>
-    <h2 className="mb-6">What Colleagues & Managers Say</h2>
+      <h2 className="mb-6">What Colleagues & Managers Say</h2>
+
       <motion.div
         initial={{ opacity: 0, y: 12 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="rounded-xl border border-white/10 bg-slate-900/60 p-5"
+        className="rounded-xl border border-white/10 bg-slate-900 p-6"
       >
-
         <blockquote className="italic text-white/80 space-y-4">
           <p>
             “Akarsh played a key role in establishing and supporting the India
@@ -39,7 +39,7 @@ export default function Testimonials() {
           </p>
         </blockquote>
 
-        <div className="mt-6 text-sm text-white/60">
+        <div className="mt-6 text-sm text-zinc-400 space-y-1">
           <p>— Sanjay Maheshwari, Tech Lead (SDE-3), Oracle</p>
           <p>— Deepak Kumar Gupta, Senior Manager, Software Development, Oracle</p>
         </div>

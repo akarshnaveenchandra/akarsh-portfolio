@@ -11,7 +11,7 @@ export default function Hero() {
           className="text-4xl sm:text-5xl md:text-6xl font-extrabold"
         >
           Hey, I&apos;m{' '}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+          <span className="font-extrabold text-zinc-300">
             Akarsh
           </span>{' '}
           👋

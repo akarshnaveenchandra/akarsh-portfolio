@@ -20,7 +20,7 @@ export default function Navbar() {
         
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <div className="w-9 h-9 rounded-full border border-primary flex items-center justify-center text-xs font-bold">
+          <div className="w-9 h-9 rounded-full border border-zinc-400/40 flex items-center justify-center text-xs font-bold text-white/80">
             ANC
           </div>
           <span className="hidden sm:block text-sm font-semibold tracking-wide">
@@ -31,26 +31,25 @@ export default function Navbar() {
         <div className="flex items-center gap-6 text-sm text-white/80">
           {links.map((link) => (
             <button
-            key={link.id}
-            onClick={() => scrollTo(link.id)}
-            className="
-              relative
-              text-white/80
-              hover:text-primary
-              transition-colors
-              after:absolute
-              after:left-0
-              after:-bottom-1
-              after:h-[1px]
-              after:w-0
-              after:bg-primary
-              after:transition-all
-              hover:after:w-full
-            "
-              >
-                {link.label}
+              key={link.id}
+              onClick={() => scrollTo(link.id)}
+              className="
+                relative
+                text-white/80
+                hover:text-white
+                transition-colors
+                after:absolute
+                after:left-0
+                after:-bottom-1
+                after:h-[1px]
+                after:w-0
+                after:bg-zinc-400
+                after:transition-all
+                hover:after:w-full
+              "
+            >
+              {link.label}
             </button>
-
           ))}
         </div>
       </div>
