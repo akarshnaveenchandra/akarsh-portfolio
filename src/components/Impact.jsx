@@ -13,25 +13,19 @@ export default function Impact() {
       >
         <ul className="list-disc pl-5 space-y-3 text-white/80 marker:text-zinc-500">
           <li>
-            Led modernization of backend clinical reporting systems in a highly
-            regulated enterprise healthcare environment
+            Played a key role in modernization efforts for backend clinical reporting systems in a regulated enterprise healthcare environment.
           </li>
           <li>
-            Improved system reliability and operational stability through
-            targeted architectural refactors and dependency simplification
+            Improved system reliability and operational stability through architectural refactors and dependency simplification.
           </li>
           <li>
-            Enabled safer and faster feature delivery by migrating legacy
-            components toward service-oriented designs
+            Enabled safer and faster feature delivery by contributing to the migration of legacy components toward service-oriented designs.
           </li>
           <li>
-            Took end-to-end ownership of complex backend services following
-            acquisition, prioritizing continuity and long-term maintainability
+            Took ownership of critical backend services within the team, ensuring continuity and long-term maintainability post-acquisition.
           </li>
           <li>
-            Served as a technical point of contact for cross-team initiatives
-            spanning reporting workflows, data pipelines, and platform
-            integration
+           Served as a trusted technical point of contact for cross-team initiatives spanning reporting workflows, data pipelines, and platform integration.
           </li>
         </ul>
       </motion.div>

@@ -23,8 +23,8 @@ export default function Hero() {
           transition={{ delay: 0.1 }}
           className="text-base sm:text-lg text-white/80 max-w-2xl mx-auto"
         >
-          Software Developer crafting systems that matter. Member of Technical Staff @ Oracle with 5+ years
-          in enterprise healthcare software, backend development, and problem solving.
+          Software Developer focused on building reliable backend systems.
+          Member of Technical Staff @ Oracle with 6+ years of experience in enterprise healthcare software, backend development, and problem solving.
         </motion.p>
 
         <motion.div

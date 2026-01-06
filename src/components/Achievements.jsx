@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 
 const achievements = [
-  '5+ years of experience in enterprise healthcare software development.',
-  'Led clinical reporting engineering initiatives as Member of Technical Staff at Oracle.',
-  'Modernized legacy systems into scalable, service-based architectures.',
+  '6+ years of experience in enterprise healthcare software development.',
+  'Senior individual contributor within the clinical reporting engineering team at Oracle.',
+  'Strong experience modernizing legacy systems into scalable, service-based architectures.',
 ];
 
 export default function Achievements() {

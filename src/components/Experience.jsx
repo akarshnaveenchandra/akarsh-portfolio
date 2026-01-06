@@ -6,9 +6,9 @@ const timeline = [
     company: 'Oracle',
     period: '2024 – Present',
     points: [
-      'Lead India clinical reporting engineering team.',
-      'Designed and implemented the MRO Gen service for clinical reporting.',
-      'Led migration of Cerner enterprise applications to modern, scalable architecture.',
+      'Played a key role in supporting the India clinical reporting engineering team, working closely with the tech lead to ensure smooth execution and handling of critical production issues.',
+      'Designed and implemented key components of the MRO Gen service for clinical reporting, collaborating with senior engineers on system design decisions.',
+      'Contributed to the migration of Cerner enterprise applications toward more modern, scalable architectures.',
     ],
   },
   {
@@ -16,8 +16,8 @@ const timeline = [
     company: 'Oracle',
     period: '2023 – 2024',
     points: [
-      'Owned backend services following the Cerner acquisition.',
-      'Improved performance and reliability of critical reporting flows.',
+      'Took ownership of backend services following the Cerner acquisition, focusing on reliability, maintainability, and production readiness.',
+      'Improved performance and stability of critical clinical reporting workflows through targeted refactoring and bug fixes.',
     ],
   },
   {
@@ -25,8 +25,8 @@ const timeline = [
     company: 'Cerner',
     period: '2019 – 2023',
     points: [
-      'Owned and delivered core clinical reporting features for enterprise healthcare customers.',
-      'Collaborated with cross-functional teams to deliver high-quality releases.',
+      'Improved performance and stability of critical clinical reporting workflows through targeted refactoring and bug fixes.',
+      'Collaborated closely with QA, product, and upstream teams to ensure high-quality releases.',
     ],
   },
 ];

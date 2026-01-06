@@ -5,9 +5,9 @@ const projects = [
     title: 'MRO Gen Service',
     tech: ['Java', 'Micronaut', 'OCI'],
     problem:
-      'Legacy reporting workflows were tightly coupled and difficult to scale for new requirements.',
+      'Legacy reporting workflows were tightly coupled and difficult to scale for evolving requirements.',
     desc:
-      'Architected and implemented a clinical reporting service powering key enterprise workflows.',
+      'Designed and implemented core components of a clinical reporting service powering key enterprise workflows, in collaboration with senior engineers and the tech lead.',
     impact:
       'Improved reporting reliability and scalability for healthcare customers.',
   },
@@ -17,9 +17,9 @@ const projects = [
     problem:
       'Monolithic legacy modules made changes risky and slowed down feature delivery.',
     desc:
-      'Migrated legacy Cerner modules to modern services with cleaner boundaries and better observability.',
+      'Contributed to migrating legacy Cerner modules toward a service-based architecture with clearer boundaries and improved observability.',
     impact:
-      'Reduced maintenance overhead and enabled future feature delivery.',
+      'Reduced maintenance overhead and improved readiness for future enhancements.',
   },
   {
     title: 'Cost Optimization & Dependency Reduction',
@@ -27,9 +27,9 @@ const projects = [
     problem:
       'Third-party dependencies and inefficient resource usage caused instability and higher costs.',
     desc:
-      'Redesigned modules to remove unreliable third-party dependencies and optimize cloud usage.',
+      'Refactored critical modules to reduce dependency risk and improve cloud resource efficiency.',
     impact:
-      'Lowered cost footprint while improving stability for critical paths.',
+      'Refactored critical modules to reduce dependency risk and improve cloud resource efficiency.',
   },
 ];
 
