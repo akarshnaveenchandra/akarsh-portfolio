@@ -9,8 +9,7 @@ modernization efforts, and collaboration within distributed engineering teams.
 ---
 
 ## 🔗 Live Site
-(Once deployed)
-https://your-domain-here.vercel.app
+https://www.akarshnaveenchandra.in 
 
 ---
 
