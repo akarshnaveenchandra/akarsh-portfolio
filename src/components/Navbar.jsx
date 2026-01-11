@@ -1,3 +1,4 @@
+import profile from '../assets/profile.jpeg';
 const links = [
   { id: 'home', label: 'Home' },
   { id: 'experience', label: 'Experience' },
@@ -18,11 +19,11 @@ export default function Navbar() {
     <nav className="sticky top-0 z-20 bg-slate-950/80 backdrop-blur border-b border-white/10">
       <div className="max-w-5xl mx-auto flex items-center justify-between px-6 py-4">
         
-        {/* Logo */}
+        {/* Profile Picture */}
         <div className="flex items-center gap-2">
-          <div className="w-9 h-9 rounded-full border border-zinc-400/40 flex items-center justify-center text-xs font-bold text-white/80">
-            ANC
-          </div>
+          <img src={profile} alt="Akarsh Naveen Chandra"
+          className="w-10 h-10 rounded-full object-cover ring-1 ring-white/10"/>
+
           <span className="hidden sm:block text-sm font-semibold tracking-wide">
           </span>
         </div>
